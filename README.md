@@ -68,7 +68,3 @@
 确保已拥有 root 权限，并对云闪付 App 隐藏越狱状态，否则云闪付会拒绝启动。越狱环境下使用支付软件风险较高，请自行承担风险。
 
 打开持卡列表并等待云闪付加载卡面；更多卡面列表中的图片不会自动缓存，需要先选择并保存。随后进入 `/private/var/mobile/Containers/Data/Application/[云闪付 App 的 UUID]/Library/Caches/com.hackemist.SDImageCache/default/` 目录找到卡面。
-
-### 透过中国银联网站
-
-前往[中国银联 [95516.com]](https://mobilepay.95516.com/home/index) 网站，使用云闪付账号登录并进入卡管理，即可查看已经绑定的卡片；你可以通过浏览器审查元素直接访问源文件。
